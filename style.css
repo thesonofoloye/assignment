@@ -1,0 +1,167 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+ 
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+.full {
+    display: flex;
+    width: 1440px;
+    height: 840px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.logoPage{
+    width: 460px;
+    height:275;
+    margin-top: 205px;
+    margin-left: 140px;
+}
+
+h3{
+    width: 268px;
+    height: 50px;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 50px;
+}
+
+.start{
+    width: 460px;
+    height: 75px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.formPage {
+    width: 580px;
+height: 679px;
+margin-top: 81px;
+border-radius: 6px;
+ background: #FFFFFF;
+}
+
+.formField{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 0 40px;
+} 
+
+.formField label{
+  width: 158px;
+  height: 14px;
+
+}
+
+.formField label {
+    width: 158px;
+    height: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.formField div {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.formField label {
+    width: 158px;
+    height: 14px;
+    display: block;
+    margin-bottom: 5px;
+    
+    color: #333;
+    font-weight: bold;
+}
+
+.formField input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.formField .password {
+    width: 100%;
+}
+
+.formField input[type="submit"] {
+    width: 100%;
+    height: 48px;
+    background-color: #2ec4b6;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+
+
+.formField a {
+    color: #2ec4b6;
+}
+
+.activityLevel{
+    display: block;
+    width: 500px;
+    height: 24px;
+    padding-bottom: 24px;
+
+}
+
+.password{
+    display: block;
+    width: 500px;
+    height: 48px;
+    padding-top: 24px;
+}
+
+.register{
+    width: 500px;
+    height: 48px;
+    
+}
+
+.formField p{
+    display: block;
+    width: 463px;
+    height: 25px;
+
+
+
+}

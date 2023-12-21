@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="full">
+        <section class="logoPage">
+            <article class="logoPicture">
+            <img src="assets/Logologo.png" alt="Logo" width="77.33" height="80">
+        </article>
+            <h3>For Individuals</h3>
+            <p class="start">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        </section>
+        <section class="formPage">
+            <form action="https://altschoolafrica.com" method="post">
+                <article class="formField">
+                    <div class="fName">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Tolu">
+                </div>
+                <div class="lName">
+               <label for="lastName">Last Name</label> 
+                <input type="text" name="lastName" id="lastName"> 
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <input type="text" name="gender" id="gender" list="genderList" placeholder="Select here">
+                <datalist id="genderList">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Others"></option>
+                </datalist>
+                </div>
+                <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" placeholder="Select here">
+            </div>
+            <div>
+                <label for="weight">Weight(KG)</label>
+                <input type="text" name="weight" id="weight" placeholder="Enter Weight">
+                </div>
+                <div>
+                <label for="height">Height(CM)</label>
+                <input type="text" name="height" id="height" placeholder="Enter height here">
+            </div>
+            <div class="activityLevel">
+                <label for="activity">Activity Level</label>
+                <input type="text" name="activity" id="activity" list="activityList" placeholder="Select here">
+                <datalist id="activityList">
+                    <option value="Amateur"></option>
+                    <option value="Professional"></option>
+                    <option value="World Class"></option>
+                    <option value="Legendary"></option>
+                    <option value="Ultimate"></option>
+                </datalist>
+                </div>
+                <div class="password">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                </div>
+                <div class="register"> <input type="submit" value="Register"></div>
+                <p> By clicking Register,you agree to our <a href="https://altschoolafrica.com/terms">Terms of Use</a> and our <a href="https://altschoolafrica.com/policy">Privacy Policy</a>
+                </p>
+                </article>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
